@@ -1,0 +1,1 @@
+Create a modern and responsive Salaah Home Page using React.js. You can include sections like About, Departments, Programs/Events, and Social Media, or design your own layout. Focus on creativity, UI/UX, and responsiveness.  

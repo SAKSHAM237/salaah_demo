@@ -1,0 +1,9 @@
+.ftr{background:var(--crd);padding:60px 24px 24px;position:relative}
+.ftr-ln{position:absolute;top:0;left:0;right:0;height:2px;background:var(--grd)}
+.ftr-inr{max-width:1000px;margin:0 auto}
+.ftr-tp{display:flex;justify-content:space-between;margin-bottom:40px;padding-bottom:40px;border-bottom:1px solid var(--brd)}
+.ftr-lgo{font-size:20px;font-weight:800;color:var(--fg-h);margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.ftr-lgo span:first-child{width:28px;height:28px;background:var(--grd);color:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center}
+.ftr-txt{font-size:13px;opacity:0.8}
+.ftr-btm{text-align:center;font-size:12px;opacity:0.6}
+@media (max-width:768px){.ftr-tp{flex-direction:column;gap:30px}}

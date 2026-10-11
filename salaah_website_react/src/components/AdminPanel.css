@@ -1,0 +1,21 @@
+.adm-ovr{position:fixed;inset:0;background:rgba(0,0,0,0.6);backdrop-filter:blur(4px);z-index:500;display:flex;align-items:center;justify-content:center;padding:20px}
+.adm-pnl{background:var(--crd);border:1px solid var(--brd);border-radius:20px;width:100%;max-width:600px;height:80vh;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 20px 40px var(--shd)}
+.adm-hdr{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--brd)}
+.adm-hdr h2{font-size:18px;color:var(--fg-h)}
+.adm-lgn{padding:40px;text-align:center}
+.adm-inp{width:100%;padding:10px 14px;border:1px solid var(--brd);border-radius:8px;background:var(--bg);color:var(--fg-h);margin-bottom:12px;outline:none}
+.adm-inp:focus{border-color:var(--acc)}
+.adm-btn-s{padding:10px 20px;border-radius:8px;background:var(--acc);color:#fff;font-weight:600}
+.adm-err{color:#ef4444;font-size:13px;margin-bottom:12px}
+.adm-tbs{display:flex;gap:4px;padding:12px;border-bottom:1px solid var(--brd);overflow-x:auto}
+.adm-tb{padding:6px 12px;border-radius:6px;font-size:13px;font-weight:600;color:var(--fg);cursor:pointer;transition:0.2s}
+.adm-tb.act{background:var(--hvr);color:var(--fg-h)}
+.adm-bdy{flex:1 1 0;min-height:0;overflow-y:auto;padding:20px}
+.adm-frm{display:flex;flex-direction:column;gap:12px}
+.adm-frm label{font-size:12px;font-weight:600;text-transform:uppercase}
+.adm-txt{width:100%;padding:10px;border:1px solid var(--brd);border-radius:8px;background:var(--bg);color:var(--fg-h);resize:vertical;min-height:80px}
+.adm-crd{padding:16px;border:1px solid var(--brd);border-radius:12px;margin-bottom:12px;background:var(--bg)}
+.adm-ftr{padding:16px 20px;border-top:1px solid var(--brd);display:flex;justify-content:space-between;align-items:center}
+.adm-btn-rst{padding:8px 16px;border:1px solid var(--brd);border-radius:8px;color:var(--fg);font-size:13px;transition:0.3s;cursor:pointer}
+.adm-btn-rst:hover{background:var(--hvr);color:var(--fg-h)}
+@media (max-width:768px){.adm-pnl{height:90vh;border-radius:20px 20px 0 0} .adm-ovr{align-items:flex-end}}

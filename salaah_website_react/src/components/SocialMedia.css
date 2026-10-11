@@ -1,0 +1,8 @@
+.soc{padding:100px 24px}
+.soc-grd{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.soc-crd{display:flex;align-items:center;gap:16px;padding:24px;border-radius:16px;background:var(--crd);border:1px solid var(--brd);transition:0.3s}
+.soc-crd:hover{transform:translateY(-4px);border-color:var(--acc)}
+.soc-icn{font-size:28px}
+.soc-inf h3{font-size:16px;color:var(--fg-h);margin:0 0 4px}
+.soc-inf p{font-size:13px;opacity:0.8}
+@media (max-width:768px){.soc-grd{grid-template-columns:1fr}}

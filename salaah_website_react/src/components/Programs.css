@@ -1,0 +1,11 @@
+.prg{padding:100px 24px}
+.prg-grd{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.prg-crd{background:var(--crd);border:1px solid var(--brd);border-radius:20px;padding:32px;position:relative;overflow:hidden;transition:0.3s}
+.prg-crd:hover{transform:translateY(-6px);border-color:var(--acc);box-shadow:0 16px 32px var(--shd)}
+.prg-tp{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.prg-icn{width:48px;height:48px;border-radius:12px;background:var(--hvr);display:flex;align-items:center;justify-content:center;font-size:24px}
+.prg-sts{font-size:11px;font-weight:700;text-transform:uppercase;padding:4px 12px;border-radius:100px;background:var(--hvr);color:var(--acc)}
+.prg-crd h3{font-size:20px;color:var(--fg-h);margin:0 0 10px}
+.prg-crd p{font-size:15px;line-height:1.6}
+.prg-num{position:absolute;bottom:16px;right:24px;font-size:60px;font-weight:900;opacity:0.04;pointer-events:none}
+@media (max-width:768px){.prg-grd{grid-template-columns:1fr}}

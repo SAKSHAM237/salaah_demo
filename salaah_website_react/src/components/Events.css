@@ -1,0 +1,10 @@
+.evt{padding:100px 24px;background:var(--crd)}
+.evt-tl{max-width:600px;margin:0 auto;position:relative;padding-left:30px}
+.evt-ln{position:absolute;top:0;bottom:0;left:14px;width:2px;background:var(--grd)}
+.evt-itm{position:relative;margin-bottom:30px}
+.evt-dot{position:absolute;left:-20px;top:24px;width:10px;height:10px;border-radius:50%;background:var(--tl);box-shadow:0 0 0 4px var(--bg)}
+.evt-crd{background:var(--bg);border:1px solid var(--brd);border-radius:16px;padding:24px;transition:0.3s}
+.evt-crd:hover{transform:translateX(6px);border-color:var(--acc)}
+.evt-dt{display:inline-block;padding:4px 12px;border-radius:100px;font-size:11px;font-weight:700;text-transform:uppercase;background:var(--hvr);color:var(--acc);margin-bottom:12px}
+.evt-crd h3{font-size:18px;color:var(--fg-h);margin:0 0 8px}
+.evt-crd p{font-size:14px;line-height:1.6}

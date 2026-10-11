@@ -1,0 +1,5 @@
+.app-wrp{position:relative;min-height:100vh}
+::selection{background:var(--acc);color:#fff}
+.shm-crd{position:relative;overflow:hidden}
+.shm-crd::after{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:linear-gradient(to bottom right,transparent 40%,rgba(255,255,255,0.04) 45%,rgba(255,255,255,0.08) 50%,rgba(255,255,255,0.04) 55%,transparent 60%);transform:rotate(45deg) translateY(-200%);transition:0.8s;pointer-events:none;z-index:1}
+.shm-crd:hover::after{transform:rotate(45deg) translateY(200%)}

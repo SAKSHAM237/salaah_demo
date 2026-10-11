@@ -1,0 +1,24 @@
+.hro{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:100px 24px 60px;overflow:hidden}
+.hro-bg{position:absolute;inset:0;z-index:0}
+.orb{position:absolute;border-radius:50%;filter:blur(80px);opacity:0.15}
+.o1{width:400px;height:400px;background:var(--tl);top:10%;left:20%;animation:fl1 20s infinite}
+.o2{width:300px;height:300px;background:var(--rs);bottom:20%;right:10%;animation:fl2 15s infinite}
+.o3{width:350px;height:350px;background:var(--vlt);top:30%;right:30%;animation:fl3 18s infinite}
+@keyframes fl1{0%,100%{transform:translate(0,0)} 50%{transform:translate(30px,-40px)}}
+@keyframes fl2{0%,100%{transform:translate(0,0)} 50%{transform:translate(-40px,30px)}}
+@keyframes fl3{0%,100%{transform:translate(0,0)} 50%{transform:translate(40px,40px)}}
+.hro-cnt{position:relative;z-index:1;text-align:center;max-width:700px}
+.bdg{display:inline-flex;align-items:center;gap:8px;padding:6px 16px;border-radius:100px;background:var(--crd);border:1px solid var(--brd);font-size:13px;font-weight:600;margin-bottom:30px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--rs);animation:pls 2s infinite}
+@keyframes pls{0%,100%{opacity:1} 50%{opacity:0.5}}
+.hro-tit{margin:0 0 20px}
+.hro-ln{display:block;font-family:'Yatra One',cursive;font-size:90px;font-weight:400;letter-spacing:1px;background:var(--grd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1.2;margin-bottom:8px;padding-bottom:10px}
+.hro-sub{display:block;font-size:20px;letter-spacing:4px;text-transform:uppercase;color:var(--fg)}
+.hro-dsc{font-size:17px;line-height:1.7;color:var(--fg);margin:0 auto 40px;max-width:500px}
+.hro-act{display:flex;gap:16px;justify-content:center;margin-bottom:60px}
+.btn{padding:12px 28px;border-radius:12px;font-size:15px;font-weight:600;transition:0.3s;display:inline-flex;align-items:center;gap:8px}
+.btn.pri{background:var(--grd);color:#fff;box-shadow:0 8px 24px var(--shd)}
+.btn.pri:hover{transform:translateY(-2px);box-shadow:0 12px 32px var(--shd)}
+.btn.sec{background:var(--crd);color:var(--fg-h);border:1px solid var(--brd)}
+.btn.sec:hover{border-color:var(--tl);transform:translateY(-2px)}
+@media (max-width:768px){.hro-ln{font-size:50px} .hro-act{flex-direction:column} .orb{filter:blur(50px)}}
